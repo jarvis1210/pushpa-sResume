@@ -183,17 +183,19 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
-			maingray\or%
+			%red!50\or%
+			%maingray\or%
 			mainblue\or%
-			maingray\or%
+			%maingray\or%
 			mainblue\or%
-			maingray\or%
+			%maingray\or%
 			mainblue\or%
-			maingray\or%
+			%maingray\or%
 			mainblue\or%
- 			maingray\or%
+ 			%maingray\or%
 			mainblue\else%
-			maingray\fi%
+			%maingray\fi% %Commented by kk
+			mainblue\fi% %Added by kk
 		}%
 	}%
 	\stepcounter{colorCounter}%
