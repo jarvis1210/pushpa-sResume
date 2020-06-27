@@ -37,7 +37,6 @@
 %----------------------------------------------------------------------------------------
 
 \renewcommand{\bfseries}{\color{gray}} % Make \textbf produce coloured text instead
-
 \pagestyle{empty} % Disable headers and footers
 
 \setlength{\parindent}{0pt} % Disable paragraph indentation
